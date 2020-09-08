@@ -1,0 +1,8 @@
+/**
+ * @tokens Easing
+ * @presenter Easing
+ */
+
+:root {
+  --easing: ease-in-out;
+}

@@ -1,0 +1,9 @@
+/**
+ * @tokens Font Weights
+ * @presenter FontWeight
+ */
+
+:root {
+	--font-weight-normal: 400;
+	--font-weight-bold: 700;
+}
