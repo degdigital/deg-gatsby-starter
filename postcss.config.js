@@ -1,10 +1,15 @@
+const browserslist = require('browserslist');
+
 module.exports = {
-  plugins: {
-    'postcss-easy-import': {},
-    'postcss-custom-properties': {},
-    'postcss-custom-selectors': {},
-    'postcss-custom-media': {},
-    'postcss-nesting': {},
-    autoprefixer: {}
-  }
+  plugins: [
+    require('postcss-easy-import'),
+    require('postcss-mixins'),
+    require('postcss-preset-env')({
+      stage: 1,
+      browsers: browserslist(null, {
+        env: 'legacy'
+      })
+    }),
+    require('cssnano')
+  ]
 };
