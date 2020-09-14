@@ -1,0 +1,18 @@
+{
+    "rules": {
+        "block-no-empty": true,
+        "declaration-no-important": true, 
+        "length-zero-no-unit": true,
+        "max-nesting-depth": 3,
+        "declaration-block-no-duplicate-properties": true,
+        "selector-max-empty-lines": 0,
+        "selector-no-vendor-prefix": true,
+        "selector-pseudo-class-no-unknown": true,
+        "selector-pseudo-element-colon-notation": "double",
+        "selector-pseudo-element-no-unknown": true,
+        "selector-type-case": "lower",
+        "selector-type-no-unknown": true,
+        "property-no-vendor-prefix": true,
+        "value-no-vendor-prefix": true
+    }
+}

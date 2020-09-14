@@ -1,0 +1,8 @@
+/**
+ * @tokens Font Families
+ * @presenter FontFamily
+ */
+
+:root {
+  --font-family-primary: 'Open Sans', sans-serif;
+}

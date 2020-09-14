@@ -1,0 +1,8 @@
+/**
+ * @tokens Border Radius
+ * @presenter BorderRadius
+ */
+
+:root {
+	--border-radius: 0.25rem;
+}

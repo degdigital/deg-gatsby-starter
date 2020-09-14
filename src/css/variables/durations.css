@@ -1,0 +1,8 @@
+/**
+ * @tokens Durations
+ */
+
+:root {
+    --duration: 0.5s;
+    --duration-half: 0.25s;
+}

@@ -1,0 +1,11 @@
+/**
+ * @tokens Colors
+ * @presenter Color
+ */
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+
+  --color-text: var(--color-white);
+}

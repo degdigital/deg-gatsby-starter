@@ -1,0 +1,25 @@
+.icon {
+  display: inline-block;
+  fill: currentColor;
+  height: 1em;
+  stroke: currentColor;
+  stroke-width: 0;
+  vertical-align: middle;
+  width: 1em;
+}
+
+.icon--xlarge {
+  font-size: 3.5em;
+}
+
+.icon--large {
+  font-size: 3em;
+}
+
+.icon--medium {
+  font-size: 1em;
+}
+
+.icon--small {
+  font-size: 0.75em;
+}

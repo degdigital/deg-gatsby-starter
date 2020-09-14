@@ -1,0 +1,11 @@
+/**
+ * @tokens Spacing
+ * @presenter Spacing
+ */
+
+:root {
+  --spacing-horizontal: 1rem;
+  --spacing-vertical: 1.5rem;
+  --width-page: 80rem;
+  --width-gutter: 1rem;
+}
